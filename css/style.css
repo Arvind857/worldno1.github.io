@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('https://i.gifer.com/XtaS.gif') no-repeat center;
+    z-index: 99999;
+}
+.bgimg{
+    background-image:url('https://www.timico.com/wp-content/uploads/2020/10/COMPUTER-LEARNING-MONTH-HEADER.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.hearderset {
+    padding-top: 250px;
+    box-sizing: border-box;
+
+}
+.hearderset h2{
+    font-size: 42px;
+}
+.hearderset h1{
+    font-size: 82px;
+    font-weight: bold;
+}
+
+
+
+.ourservices{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+.ourservices h1{
+    font-size: 50 px;
+    font-weight: bold;
+}
+.rowsetting{
+    margin: 80px 0px ! important;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fa-shopping-cart{
+margin-top: 20px;
+}
+.fa-desktop{
+    margin-top: 26px;
+}
+.fa-lock{
+    margin-top: 25px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.rowsetting p{
+    padding: 10px;
+    color: #6c757d! important;
+}
+.PORTFOLIO{
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+}
+.PORTFOLIO h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;
+}
+.ourteam{
+    height: 700px;
+    padding: 100px 0p 60px;
+    width: 100%;
+}
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.teamsetting{
+    margin-top: 70px;
+}
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width:991px){
+
+}
+@media(min-width: 575px) and (max-width:767px){
+
+}
+@media(min-width: 480px) and (max-width:574px){
+
+}
+@media(max-width:479px){
+    .hearderset h2{
+        font-size: 22px;
+    }
+    .hearderset h1{
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .ourservices{
+        height: 1200px;
+    }
+    .PORTFOLIO{
+        height: 3000px;
+    }
+    .ourteam{
+        height: 1000px;
+    }
+}
